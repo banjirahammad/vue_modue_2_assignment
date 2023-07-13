@@ -47,9 +47,9 @@ console.log(multiply(5,10))*/
 
 // Exercise 6:
 /*function getLargestNumber(a, b) {
-  return a > b ? a : b;
+  return (a > b && a) || b;
 }
-console.log(getLargestNumber(5,10)) */
+console.log(getLargestNumber(0,10))*/
 
 
 
@@ -87,11 +87,10 @@ console.log(sumArray([1, 2, 4, 5, 6]));*/
 
 // Exercise 11:
 /*function sortNumbers(arr) {
-    const sortArray = [...arr].sort();
+    const sortArray = arr.sort((a,b)=>a-b);
     return sortArray;
 }
-console.log(sortNumbers([5, 2, 8, 1, 4]));*/
-
+console.log(sortNumbers([1,2,6,8,5]));*/
 
 
 
